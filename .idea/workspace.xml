@@ -1,29 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14663f40-be5c-4d7f-b386-255460aa5a74" name="Default Changelist" comment="" />
+    <list default="true" id="14663f40-be5c-4d7f-b386-255460aa5a74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/chain/AbstractFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/chain/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/chain/FilterPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/chain/HeadFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/chain/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/chain/TailFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/command/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/command/NoodleCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/command/PieCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/command/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/mediator/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/mediator/ConcreteColleague1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/mediator/ConcreteColleague2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/mediator/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/proxy/CuiHuaNiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/proxy/DynProxyLawyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/proxy/ILawSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/proxy/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/proxy/ProxyLawyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/proxy/SecondDogWang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/template/JinShanLivePlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/template/LivePlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/designer/pattern/template/TencentLivePlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/searchBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\repo" />
-        <option name="mavenHome" value="D:/apache-maven-3.5.2" />
+        <option name="mavenHome" value="C:/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings-qdk.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1uvPCizj8c6cYch4vHOCjq2y1eZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,12 +73,83 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.designer.pattern.chain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designer.pattern.chain.Main" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designer.pattern.chain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designer.pattern.proxy.ProxyFactory" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designer.pattern.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aaaa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.aaaa" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfLongSUbStringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.tests.LengthOfLongSUbStringTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ProxyFactory" />
+        <item itemvalue="Application.aaaa" />
+        <item itemvalue="JUnit.LengthOfLongSUbStringTest.test1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,17 +161,110 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625542963590</updated>
-      <workItem from="1625542965375" duration="3062000" />
+      <workItem from="1625542965375" duration="20720000" />
+      <workItem from="1625643389571" duration="14935000" />
+      <workItem from="1625796963145" duration="3359000" />
+      <workItem from="1626059307288" duration="275000" />
+      <workItem from="1626159208091" duration="1437000" />
+      <workItem from="1626165697842" duration="1034000" />
+      <workItem from="1626231697159" duration="6137000" />
+      <workItem from="1626311265031" duration="3004000" />
+      <workItem from="1631080146015" duration="9191000" />
+      <workItem from="1631154743017" duration="8170000" />
+      <workItem from="1631240023639" duration="3777000" />
     </task>
+    <task id="LOCAL-00001" summary="leetcode">
+      <created>1625642312665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625642312665</updated>
+    </task>
+    <task id="LOCAL-00002" summary="leetcode">
+      <created>1625730704179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625730704179</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1625548825414">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1625563354699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1625548825414" />
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1625563354699" />
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1631243491303">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1631243491303" />
+    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1626166077093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1626166077093" />
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1625730703256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1625730703256" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1631244836579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631244836579" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1631244836579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631244836579" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1631244836579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631244836579" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1631244836579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631244836579" />
+    <state width="1877" height="273" key="GridCell.Tab.1.bottom" timestamp="1631093422625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631093422625" />
+    <state width="1877" height="273" key="GridCell.Tab.1.center" timestamp="1631093422625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631093422625" />
+    <state width="1877" height="273" key="GridCell.Tab.1.left" timestamp="1631093422625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631093422625" />
+    <state width="1877" height="273" key="GridCell.Tab.1.right" timestamp="1631093422625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631093422625" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1631086035581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631086035581" />
+    <state x="681" y="261" width="564" height="524" key="StructurePopup" timestamp="1631243862469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="564" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1631243862469" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1625730705727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625730705727" />
+    <state x="661" y="147" key="refactoring.ChangeSignatureDialog" timestamp="1625730532140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625730532140" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1631174108777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631174108777" />
   </component>
 </project>

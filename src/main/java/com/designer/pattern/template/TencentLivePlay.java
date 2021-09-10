@@ -1,0 +1,30 @@
+package com.designer.pattern.template;
+
+public class TencentLivePlay extends LivePlay {
+
+    @Override
+    public void openRoom() {
+        System.out.println("腾讯打开房间");
+    }
+
+    @Override
+    public void startAudioAndVideoStream() {
+        System.out.println("腾讯打开音视频流");
+    }
+
+    @Override
+    public void stopAudioAndVideoStream() {
+        System.out.println("腾讯关闭音视频流");
+    }
+
+    @Override
+    public void closeRoom() {
+        System.out.println("腾讯关闭房间");
+    }
+
+    @Override
+    public void pushVideoStream() {
+        super.pushVideoStream();
+        System.err.println("腾讯进行旁路推流");
+    }
+}
