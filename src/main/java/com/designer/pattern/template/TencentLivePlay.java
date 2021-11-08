@@ -1,5 +1,11 @@
 package com.designer.pattern.template;
 
+/**
+ * 模板模式
+ * 1.封装不变部分，扩展可变部分。
+ * 2.提取了公共代码，便于维护。
+ * 3.行为由父类控制，子类实现。
+ */
 public class TencentLivePlay extends LivePlay {
 
     @Override
