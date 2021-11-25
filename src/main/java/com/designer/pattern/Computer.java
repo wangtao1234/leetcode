@@ -3,6 +3,7 @@ package com.designer.pattern;
 
 /**
  * 建造者模式
+ * @author wangtao
  */
 public class Computer {
 
