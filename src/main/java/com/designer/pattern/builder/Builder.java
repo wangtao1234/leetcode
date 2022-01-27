@@ -1,31 +1,24 @@
 package com.designer.pattern.builder;
 
 /**
- * @author wangtao
+ * 抽象建造者
+ *
+ * @author wt
+ * @date 2021/11/7
+ * <ul>
+ * <li> project: leetcode </li>
+ * <li> package: com.designer.pattern.builder </li>
+ * </ul>
  */
-public interface Builder {
+public abstract class Builder {
 
-    /**
-     * 打地基
-     */
-    void buildBasic();
+    abstract void buildA();
 
+    abstract void buildB();
 
-    /**
-     * 砌墙
-     */
-    void buildWalls();
+    abstract void buildC();
 
-    /**
-     * 封顶
-     */
-    void roofed();
+    abstract void buildD();
 
-    /**
-     * 造房子
-     *
-     * @return 返回值
-     */
-    Product buildProduct();
-
+    abstract Product getProduct();
 }

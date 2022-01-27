@@ -1,42 +1,45 @@
-package com.designer.pattern.singleton;
+package com.designer.pattern.singleTon;
 
 /**
- * 懒汉模式(双重检查锁)
+ * @author wt
+ * @date 2021/11/7
+ * <ul>
+ * <li> project: leetcode </li>
+ * <li> package: com.designer.pattern.singleTon </li>
+ * </ul>
  */
 public class LazySingleTon {
 
-    private static LazySingleTon singleTon = null;
+    private static LazySingleTon instance;
 
     private LazySingleTon() {
 
     }
 
     /**
-     * 双重检查锁
+     * 双重检查
+     *
+     * @return
      */
     public static LazySingleTon getInstance() {
-        if (singleTon == null) {
+        if (instance == null) {
             synchronized (LazySingleTon.class) {
-                if (singleTon == null) {
-                    singleTon = new LazySingleTon();
+                if (instance == null) {
+                    return new LazySingleTon();
                 }
             }
         }
-        return singleTon;
+        return instance;
     }
 
     /**
-     * 静态内部类
+     * 内部类
      */
-    public static LazySingleTon getInstanceV2() {
-        return StaticSingletonHolder.instance;
-    }
-
-
-    /**
-     * 静态内部类
-     */
-    private static class StaticSingletonHolder {
+    private static class singleTonClassInstance {
         private static final LazySingleTon instance = new LazySingleTon();
+    }
+
+    public static LazySingleTon getInstanceV2() {
+        return singleTonClassInstance.instance;
     }
 }

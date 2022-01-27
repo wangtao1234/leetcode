@@ -1,33 +1,43 @@
 package com.designer.pattern.builder;
 
 /**
- * @author wangtao
+ * @author wt
+ * @date 2021/11/7
+ * <ul>
+ * <li> project: leetcode </li>
+ * <li> package: com.designer.pattern.builder </li>
+ * </ul>
  */
-public class ConcreteBuilder implements Builder {
+public class ConcreteBuilder extends Builder {
+
     private Product product;
 
-    public ConcreteBuilder() {
-        product = new Product();
-    }
-
-
-    @Override
-    public void buildBasic() {
-        product.setBasic("打好基础");
+    public void setProduct(Product product) {
+        this.product = product;
     }
 
     @Override
-    public void buildWalls() {
-        product.setWall("砌墙");
+    void buildA() {
+        product.setBuildA("地基");
     }
 
     @Override
-    public void roofed() {
-        product.setRoofed("封顶大吉");
+    void buildB() {
+        product.setBuildB("钢筋工程");
     }
 
     @Override
-    public Product buildProduct() {
+    void buildC() {
+        product.setBuildC("铺电线");
+    }
+
+    @Override
+    void buildD() {
+        product.setBuildD("粉刷");
+    }
+
+    @Override
+    Product getProduct() {
         return product;
     }
 }

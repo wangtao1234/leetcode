@@ -1,46 +1,52 @@
 package com.designer.pattern.builder;
 
 /**
- * @author wangtao
+ * @author wt
+ * @date 2021/11/7
+ * <ul>
+ * <li> project: leetcode </li>
+ * <li> package: com.designer.pattern.builder </li>
+ * </ul>
  */
 public class Product {
 
-    /**
-     * 地基
-     */
-    private String basic;
+    private String buildA;
 
-    /**
-     * 墙
-     */
-    private String wall;
+    private String buildB;
 
-    /**
-     * 楼顶
-     */
-    private String roofed;
+    private String buildC;
 
-    public String getBasic() {
-        return basic;
+    private String buildD;
+
+    public String getBuildA() {
+        return buildA;
     }
 
-    public void setBasic(String basic) {
-        this.basic = basic;
+    public void setBuildA(String buildA) {
+        this.buildA = buildA;
     }
 
-    public String getWall() {
-        return wall;
+    public String getBuildB() {
+        return buildB;
     }
 
-    public void setWall(String wall) {
-        this.wall = wall;
+    public void setBuildB(String buildB) {
+        this.buildB = buildB;
     }
 
-    public String getRoofed() {
-        return roofed;
+    public String getBuildC() {
+        return buildC;
     }
 
-    public void setRoofed(String roofed) {
-        this.roofed = roofed;
+    public void setBuildC(String buildC) {
+        this.buildC = buildC;
+    }
+
+    public String getBuildD() {
+        return buildD;
+    }
+
+    public void setBuildD(String buildD) {
+        this.buildD = buildD;
     }
 }
